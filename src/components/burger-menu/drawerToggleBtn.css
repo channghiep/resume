@@ -1,0 +1,210 @@
+.toggle-zone {
+    height: 80px;
+    width: 88px;
+    border-right: 1px solid rgba(255,255,255,.25);
+
+    position: fixed;
+}
+
+.toggle-btn > button {
+    height: 30px;
+    width: 40px;
+    cursor: pointer;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background: transparent;
+    border: none;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+
+    position: fixed;
+    top: 24px;
+    left: 24px;
+
+    transition: all .5s ease-in-out;
+}
+
+.changed-btn {
+    height: 30px;
+    width: 40px;
+    cursor: pointer;
+
+    background: transparent;
+    border: none;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    transition: all .5s ease-in-out;
+}
+
+.toggle-btn:focus {
+    outline: none;
+}
+
+.toggle-btn__line {
+    width: 40px;
+    height: 4px;
+    background: #5D5D5D;
+
+    transition: all .5s ease-in-out;
+}
+
+.changed-btn .toggle-btn__line:nth-of-type(2) {
+    transform: translateX(20px);
+    background: transparent;
+}
+
+.changed-btn .toggle-btn__line:first-of-type {
+    transform: rotate(45deg) translate(9px, 9px);
+}
+
+.changed-btn .toggle-btn__line:last-of-type {
+    transform: rotate(-45deg) translate(9px, -9px);
+}
+
+.changed-btn + .side-drawer {
+    /* font-family: "Montserrat", sans-serif;
+    color: #FFF;
+    background-color: #111;
+    font-weight: 900;
+    font-size: 24pt;
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: calc(100vh - 81px);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center; */
+
+    transition: all .5s ease-in-out;
+    transform: translateX(0);
+}
+
+.side-drawer {
+    font-family: "Montserrat", sans-serif;
+    color: #9D9D9D;
+    background-color: #111;
+    font-weight: 900;
+    font-size: 24pt;
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: calc(100vh - 81px);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    transition: all .5s ease-in-out;
+    transform: translateX(-100%);
+}
+
+.side-drawer-items ul {
+    list-style: none;
+
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-top: 80px;
+}
+
+.side-drawer-items li {
+    margin-bottom: 16px;
+}
+
+.side-drawer-items li a {
+    text-decoration: none;
+    color: #9D9D9D;
+}
+
+.side-drawer-items li a:focus {
+    color: rgba(255, 255, 255, .75);
+}
+
+.side-drawer-resume {
+    font-size: 14pt;
+    font-weight: 600;
+    
+    position: absolute;
+    bottom: 190px;
+
+    color: #9D9D9D;
+    text-decoration: none;
+}
+
+.side-drawer-resume:focus {
+    color: rgba(255, 255, 255, .75);
+}
+
+.side-drawer-social {
+    display: flex;
+    flex-flow: row wrap;
+
+    position: absolute;
+    bottom: 100px;
+}
+
+.side-drawer button {
+    height: 50px;
+    width: 50px;
+
+    margin-right: 30px;
+    background-color: #111;
+    border: 1px solid rgba(157,157,157,.5);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.side-drawer button:last-of-type {
+    margin-right: 0;
+}
+
+.side-drawer button:focus {
+    outline: 0;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.side-drawer-social button svg {
+    fill: #9D9D9D;
+}
+
+.side-drawer-linkedin svg {
+    width: 20px;
+}
+
+.side-drawer-behance svg {
+    width: 28px;
+}
+
+.side-drawer-dribbble svg {
+    width: 24px;
+}
+
+
+@media screen and (min-width: 769px) {
+
+    .toggle-btn button {
+        display: none;
+    }
+
+    .toggle-zone {
+        display: none;
+    }
+
+    .side-drawer {
+        display: none;
+    }
+
+}
