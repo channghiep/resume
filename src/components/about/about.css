@@ -1,14 +1,14 @@
-.about-main{
+/* .about-main{
     height: 100vh;
     width: auto;
     background-image: url("../assets/wallpaperflare.com_wallpaper.jpg");
     background-position: center; 
   background-repeat: no-repeat; 
   background-size: cover;
-}
-/* .about-main {
-    background-color: white;
 } */
+.about-main {
+    background-color: rgb(23, 26, 33);
+}
 .about-chart{
     height: 500px;
     width: 500px;
@@ -18,15 +18,7 @@
     margin-top: 300px;
     margin-left: 900px;
 } */
-.skill-pack{
-    display: grid;
-    grid-template-columns: 20% 80%;
-}
-.skill-name{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 /* .devicon-react-original-wordmark{
     height: 10px;
@@ -35,7 +27,3 @@
 .devicon-react-original-wordmark path {
     fill: #4691f6;
 } */
-.javascript-icon{
-    max-height: 50px;
-    max-width: 50px
-}

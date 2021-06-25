@@ -1,0 +1,12 @@
+.svgFile{
+    max-height: 50px;
+    max-width: 50px
+}
+.progressClass{
+    width: 200px;
+}
+.langFull{
+
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
