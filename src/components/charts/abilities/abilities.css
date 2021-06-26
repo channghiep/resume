@@ -6,3 +6,15 @@
     display: grid;
     grid-template-columns: auto auto auto;
 }
+.ability-item{
+    /* align-items: center; */
+    text-align: center;
+    /* justify-content: center; */
+    /* border: 2px solid;  */
+    border-color: #6B63FF;
+}
+.ability-item p{
+    font-size: 18px;
+    margin: 20px!important;
+    color: #F0F7EE;
+}

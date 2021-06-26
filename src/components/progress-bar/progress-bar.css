@@ -3,10 +3,27 @@
     max-width: 50px
 }
 .progressClass{
+    
     width: 200px;
+    background-color: #f0f7ee!important;
+}
+.progressClass .bar{
+    /* background: #6B63FF!important; */
+    background: #6B63FF!important;
+}
+.progressClass .progress{
+    color: #ffdf00!important;
 }
 .langFull{
-
+    width: 300px;
     display: grid;
     grid-template-columns: 30% 70%;
+    /* margin: 20px; */
+    justify-content: center;
+    text-align: center;
+}
+.progressHolder{
+    padding: 10px;
+    /* align-items: center;
+    text-align: center; */
 }

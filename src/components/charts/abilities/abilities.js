@@ -10,29 +10,29 @@ import './abilities.css'
 export default function Abilities(){
     return(
         <div className='ability-grid'>
-            <div className='ability-item'>
+            <div style={{borderTop:'0px', borderLeft:'0px'}} className='ability-item'>
                 <img src={analysis}/>
-                <p>Analysis</p>
+                <p>Analyzing</p>
             </div>
-            <div className='ability-item'>
+            <div style={{borderTop:'0px'}} className='ability-item'>
                 <img src={detailing}/>
-                <p>Analysis</p>
+                <p>Focusing on Detail</p>
             </div>
-            <div className='ability-item'>
+            <div style={{borderTop:'0px', borderRight:'0px'}}className='ability-item'>
                 <img src={researching}/>
-                <p>Analysis</p>
+                <p>Researching</p>
             </div>
-            <div className='ability-item'>
+            <div style={{borderBottom:'0px', borderLeft:'0px'}} className='ability-item'>
                 <img src={teaming}/>
-                <p>Analysis</p>
+                <p>Teaming Working</p>
             </div>
-            <div className='ability-item'>
+            <div style={{borderBottom:'0px'}} className='ability-item'>
                 <img src={solving}/>
-                <p>Analysis</p>
+                <p>Problem Solving</p>
             </div>
-            <div className='ability-item'>
+            <div style={{borderBottom:'0px', borderRight:'0px'}} className='ability-item'>
                 <img src={multitasking}/>
-                <p>Analysis</p>
+                <p>Multitasking</p>
             </div>
             {/* <div></div> */}
             

@@ -7,17 +7,24 @@
   background-size: cover;
 } */
 .about-main {
-    background-color: rgb(23, 26, 33);
+    /* background-color: #F0F7EE; */
+    height: auto;
+    width: 90%;
+    margin: auto;
 }
 .about-chart{
-    height: 500px;
-    width: 500px;
+    /* height: 500px;
+    width: 500px; */
 }
 /* .progress-bar  */
 /* .navbar-lottie {
     margin-top: 300px;
     margin-left: 900px;
 } */
+.skill-pack{
+    /* display: grid;
+    grid-template-columns: 20% 80%; */
+}
 
 
 /* .devicon-react-original-wordmark{
@@ -27,3 +34,49 @@
 .devicon-react-original-wordmark path {
     fill: #4691f6;
 } */
+.about-part1{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+.about-part1 .uncontrolled-lottie{
+    padding: 20px 20px;
+    /* height: 560px;
+    width: 500px; */
+}
+
+.box {
+    width: auto;
+    height: 200px;
+    margin: 50px auto;
+    background: #fff07c;
+    padding: 20px;
+    text-align: left;
+    font-weight: 900;
+    color: #0d0221;
+    font-family: arial;
+    position: relative;
+    font-size: 16px;
+  }
+  .sb2:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid #fff07c;
+    border-top: 10px solid #fff07c;
+    border-bottom: 10px solid transparent;
+    left: -19px;
+    top: 6px;
+  }
+
+  .about-part2{
+    /* width: auto; */
+}
+.about-part2 #timeline-main-wrapper{
+    height: 7rem;
+}
+.about-part3{
+    display: grid;
+    grid-template-columns: auto auto;
+}

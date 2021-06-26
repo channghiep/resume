@@ -3,7 +3,7 @@
     color: #5D5D5D;
     font-weight: 900;
     font-size: 36pt;
-    background-color: rgb(23, 26, 33);
+    background-color: #0D0221;
 
     position: fixed;
     z-index: 1;
@@ -11,7 +11,8 @@
     left: 0;
     width: 400px;
     height: 100vh;
-    border-right: 1px solid rgba(255,255,255,.25);
+    /* border-right: 1px solid #F0F7EE; */
+    border-right: 1px solid #ffdf00;
 }
 
 .navigation-bar .logo {
@@ -39,6 +40,7 @@
 }
 
 .navbar-items li {
+    margin-top: 30px;
     margin-bottom: 4px;
 }
 

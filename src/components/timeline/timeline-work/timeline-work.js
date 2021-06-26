@@ -1,6 +1,7 @@
 import React from 'react'
 import { Chrono } from 'react-chrono'
 import data from './work-data'
+import './timeline-work.css'
 
 export default function TimelineWork(){
     const items = [{
@@ -16,8 +17,8 @@ export default function TimelineWork(){
         }
       }]
     return(
-        <div style={{ width: "500px", height: "400px" }}>
-            <Chrono items={data} mode="HORIZONTAL" />
-        </div> 
+      <div >
+      <Chrono items={data} mode="HORIZONTAL" />
+    </div>
     )
 }
