@@ -32,7 +32,7 @@
     transition: color .1s ease-out;
 }
 
-/* .project-wrapper:hover {
+.project-wrapper:hover {
     height: 240px;
     transition: height .25s ease-out;
 }
@@ -54,32 +54,35 @@
 }
 
 .project-wrapper:hover::before {
-    background-size: cover;
+    /* background-size: cover; */
 
-    opacity: 100;
-    transition: opacity .25s ease-out;
+    /* opacity: 100; */
+    /* transition: opacity .25s ease-out; */
 }
 
-.wrapper-gover:hover::before {
-    background-image: url(../assets/gover-cover.jpg);
+.wrapper-gover:hover{
+    background-image: url(../assets/1.1_HomepageNavigationTop.png);
+    background-position:left center !important;
+    transition:.5s ease-out; 
 }
 
 .wrapper-gover:hover .project-description {
     color: #FF7F63;
-    transition: color .25s ease-out;
 }
 
-.wrapper-greenfill:hover::before {
+.wrapper-greenfill:hover {
     background-image: url(../assets/greenfill-cover.jpg);
+    background-position: center!important;
+    transition: .5s;
 }
 
 .wrapper-greenfill:hover .project-description {
     color: #6DA340;
-    transition: color .25s ease-out;
 }
 
-.wrapper-inclass:hover::before {
+.wrapper-inclass:hover{
     background-image: url(../assets/inclass-cover.jpg);
+    background-position: center center !important;
 }
 
 .wrapper-inclass:hover .project-description {
@@ -121,7 +124,7 @@
 .wrapper-arttiles:hover .project-description {
     color: #333;
     transition: color .25s ease-out;
-} */
+}
 
 .project {
     width: 100%;
