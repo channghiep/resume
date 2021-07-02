@@ -19,8 +19,8 @@ export default function DrawerToggleBtn(){
                     <ul>
              
                         
-                        <li><Link to="/"><a href="/">r e s u m e</a></Link></li>
-                        <li><Link to="/about"><a href="/works">w o r k s</a></Link></li>
+                        <li><Link to="/"><a>r e s u m e</a></Link></li>
+                        <li><Link to="/works"><a>w o r k s</a></Link></li>
                         {/* <li><Link to="/contact"><a href="/">contact</a></Link></li> */}
                     </ul>
                 </div>
