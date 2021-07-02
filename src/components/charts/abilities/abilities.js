@@ -12,11 +12,11 @@ export default function Abilities(){
         <div className='ability-grid'>
             <div style={{borderTop:'0px', borderLeft:'0px'}} className='ability-item'>
                 <img src={analysis}/>
-                <p>Analyzing</p>
+                <p>Analytical Thinking</p>
             </div>
             <div style={{borderTop:'0px'}} className='ability-item'>
                 <img src={detailing}/>
-                <p>Focusing on Detail</p>
+                <p>Attention to Detail</p>
             </div>
             <div style={{borderTop:'0px', borderRight:'0px'}}className='ability-item'>
                 <img src={researching}/>
@@ -24,7 +24,7 @@ export default function Abilities(){
             </div>
             <div style={{borderBottom:'0px', borderLeft:'0px'}} className='ability-item'>
                 <img src={teaming}/>
-                <p>Teaming Working</p>
+                <p>Teamwork</p>
             </div>
             <div style={{borderBottom:'0px'}} className='ability-item'>
                 <img src={solving}/>
@@ -35,6 +35,7 @@ export default function Abilities(){
                 <p>Multitasking</p>
             </div>
             {/* <div></div> */}
+            {/* adaptability*/}
             
             
             

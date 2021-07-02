@@ -37,8 +37,8 @@ function App() {
         <div className="main-switcher">
           <Navbar/>
           <Switch>
-            <Route exact path='/' component={Projects}/>
-            <Route exact path='/about' component={About}/>  
+            <Route exact path='/' component={About}/>  
+            <Route exact path='/works' component={Projects}/>
     
           </Switch> 
         </div>

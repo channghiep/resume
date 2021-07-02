@@ -1,14 +1,12 @@
-.svgFile{
+/* .svgFile{
     max-height: 50px;
     max-width: 50px
 }
 .progressClass{
-    
     width: 200px;
     background-color: #f0f7ee!important;
 }
 .progressClass .bar{
-    /* background: #6B63FF!important; */
     background: #6B63FF!important;
 }
 .progressClass .progress{
@@ -18,12 +16,48 @@
     width: 300px;
     display: grid;
     grid-template-columns: 30% 70%;
-    /* margin: 20px; */
     justify-content: center;
     text-align: center;
 }
 .progressHolder{
     padding: 10px;
-    /* align-items: center;
-    text-align: center; */
+} */
+.svgFile{
+    max-height: 50px;
+    max-width: 50px
 }
+.progressClass{
+    width: 500px;
+    background-color: #f0f7ee!important;
+}
+.progressClass .bar{
+    background: #6B63FF!important;
+}
+.progressClass .progress{
+    color: #ffdf00!important;
+}
+.langFull{
+    margin: auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    justify-content: center;
+    text-align: center;
+}
+.progressHolder{
+    padding: 10px;
+}
+@media screen and (min-width: 1275px){
+
+    .progressClass{
+        width: 200px;
+    }
+
+    .langFull{
+        margin:0;
+        width: 300px;
+    
+    }
+
+}
+

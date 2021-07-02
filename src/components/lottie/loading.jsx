@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import Lottie from 'react-lottie'
-import animationData from './lotties/63921-developer.json'
+import animationData from './lotties/9844-loading-40-paperplane.json'
 
-class UncontrolledLottie extends Component {
+class Loading extends Component {
     
     render(){
 
@@ -16,14 +16,15 @@ class UncontrolledLottie extends Component {
         };
 
         return(
-            <div>
-                <Lottie options={defaultOptions}
-                    // height={400}
-                    // width={400}
-                />
-            </div>
+         
+                    <Lottie options={defaultOptions}
+                        height={300}
+                        width={300}
+                    />
+
+
         )
     }
 }
 
-export default UncontrolledLottie
+export default Loading

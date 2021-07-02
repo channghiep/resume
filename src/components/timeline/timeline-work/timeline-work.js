@@ -17,8 +17,10 @@ export default function TimelineWork(){
         }
       }]
     return(
-      <div >
-      <Chrono items={data} mode="HORIZONTAL" />
+      <div className='workTimeline'>
+        <div >
+          <Chrono items={data} mode="HORIZONTAL" />
+        </div>
     </div>
     )
 }

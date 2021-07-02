@@ -1,0 +1,28 @@
+
+
+.weather{
+    display: none;
+}
+@media screen and (min-width: 1275px){
+.weather{
+    display: unset;
+    margin: 40px 20px 20px 20px;
+}
+.weatherContainer{
+    display: grid;
+    grid-template-rows: auto auto;
+}
+.weatherItemContainer{
+    display:grid;
+    grid-template-rows: auto auto;
+    border-bottom: #6B63FF solid 1px;
+    border-top: #6B63FF solid 1px;
+    padding-bottom: 2rem ;
+    padding-top: 2rem ;
+}
+.weatherItem{
+    display:grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+}
+}

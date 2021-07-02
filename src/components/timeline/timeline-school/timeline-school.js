@@ -8,7 +8,7 @@ export default function TimelineSchool() {
     
     return (
         <div className="App">
-        <div style={{ width: "100%", height: "95vh" }}>
+        <div  style={{ width: "100%", height: "95vh" }}>
             <Chrono items={data} mode="VERTICAL_ALTERNATING" />
         </div>
         </div>

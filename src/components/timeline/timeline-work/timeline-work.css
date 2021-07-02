@@ -1,14 +1,14 @@
-.timelineWork{
-    /* width: auto; */
-    /* height:400px; */
-    /* font-family: sans-serif; */
-    /* text-align: center; */
-    /* font-family: "Nunito", sans-serif; */
-    /* display: flex; */
-    /* align-items: center; */
-    /* justify-content: center; */
-}
+
+#react-chrono-timeline{
+    text-align: center;
+} 
 #react-chrono-timeline .timeline-card-content{
     background: #F0F7EE!important;
     /* color:#0D0221!important; */
+}
+
+.workTimeline{
+   width: 550px; 
+   height: 400px; 
+   margin:auto;
 }

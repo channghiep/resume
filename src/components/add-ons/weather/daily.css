@@ -1,0 +1,9 @@
+.dailyContainer{
+    display: grid;
+    grid-template-rows: auto auto auto;
+}
+.dailyItems{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-items: center!important;
+}
