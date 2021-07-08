@@ -26,10 +26,10 @@ export default function About(){
                     {/* <div style={{height:'200px'}}>
                         <p>lorem</p>
                     </div> */}
-                    <div class="box sb2">
+                    <div className="box sb2">
                     Highly motivated post-graduate in Web and Mobile Development, who demonstrates strong work ethic and creativity ability. My objective is using my abilities and knowledge in various web Frameworks/Libraries i.e. ReactJs, JavaScript, to maximize company’s profits.
                     </div>
-                    <div>
+                    <div className="abilities-cont">
                         <p className='yellow-header'>Abilities</p>
                         <Abilities/>
                     </div>

@@ -8,7 +8,45 @@
 }
 
 .workTimeline{
-   width: 550px; 
-   height: 400px; 
-   margin:auto;
+    /* overflow:visible; */
+    width: 90%; 
+    height: 400px; 
+    margin:auto;
+}
+.workTimeline .card-title{
+    padding-left: 3em;
+}
+.workTimeline .card-sub-title{
+    padding-left: 3em;
+}
+.workTimeline .card-description{
+    padding-left: 3em;
+    padding-right: 2em;
+}
+.workTimeline .show-more{
+    padding-right: 3em;
+}
+@media screen and (min-width: 750px) {
+    .workTimeline{
+        /* overflow:visible; */
+        width: 600px; 
+        /* height: auto;  */
+        /* margin:auto; */
+    }
+    .workTimeline .card-title{
+        font-size: 1.3em;
+        padding-left: 1em;
+    }
+    .workTimeline .card-sub-title{
+        font-size: 1.2em;
+        padding-left: 1em;
+    }
+    .workTimeline .card-description span{
+        font-size: 1.3em;
+        /* padding-left: 1em; */
+        /* padding-right: 2em; */
+    }
+    .workTimeline .show-more{
+        padding-right: 3em;
+    }
 }

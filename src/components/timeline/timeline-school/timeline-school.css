@@ -10,3 +10,27 @@
 .css-ouzaa4-TimelineContentDetailsWrapper{
     max-height: 100px!important;
 }
+@media screen and (min-width: 750px) {
+    .schoolTimeline{
+        /* overflow:visible; */
+        /* width: 600px;  */
+        /* height: auto;  */
+        /* margin:auto; */
+    }
+    .schoolTimeline .card-title{
+        font-size: 1.3em;
+        padding-left: 1em;
+    }
+    .schoolTimeline .card-sub-title{
+        font-size: 1.2em;
+        padding-left: 1em;
+    }
+    .schoolTimeline .card-description span{
+        font-size: 1.3em;
+        /* padding-left: 1em; */
+        /* padding-right: 2em; */
+    }
+    .schoolTimeline .show-more{
+        padding-right: 3em;
+    }
+}
