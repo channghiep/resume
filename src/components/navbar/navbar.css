@@ -54,6 +54,12 @@
     color: #6B63FF;
     
 }
+.hamburger-icon{
+    z-index: 10000;
+}
+.changed-btn{
+    z-index: 10000;
+}
 .hamburger-icon .toggle-zone{
     background-color: #0D0221;
 }

@@ -14,7 +14,7 @@ export default function DrawerToggleBtn(props){
                 <div className="toggle-btn__line"></div>
                 <div className="toggle-btn__line"></div>
             </button>
-            <nav className="side-drawer" scroll="no">
+            <nav className="side-drawer">
                 <div className="side-drawer-items">
                     <ul>
              
