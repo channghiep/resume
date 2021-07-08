@@ -16,6 +16,7 @@ import About from './components/about/about';
 
 function App() {
   const [loading, setLoading] = useState(true)
+  const[tog, setTog] =useState(false)
   useEffect(() => {
     const timer =  setTimeout(() => {
       setLoading(false)
@@ -33,9 +34,10 @@ function App() {
           </div>
         </div>
       :
+      
       <Router>
-        <div className="main-switcher">
-          <Navbar/>
+        <Navbar tog={tog} setTog={setTog}/>
+        <div className={`${tog ? "hide_main" : "main-switcher "}`}>
           <Switch>
             <Route exact path='/' component={About}/>  
             <Route exact path='/works' component={Projects}/>

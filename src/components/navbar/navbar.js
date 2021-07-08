@@ -8,13 +8,13 @@ import Weather from '../add-ons/weather/weather';
 
 import './navbar.css';
 
-export default function Navbar(){
+export default function Navbar(props){
 
     return(
         <div className="navigation-main">
             <nav className="navigation-bar">
                 <div className="hamburger-icon">
-                    <DrawerToggleBtn/>
+                    <DrawerToggleBtn tog={props.tog} setTog={props.setTog}/>
                 </div>
                 <div className="logo">
                     {/* <img src={logoImg} alt="logoImg"/> */}

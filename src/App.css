@@ -133,6 +133,10 @@
 .white-subheader span{
   color: #ffdf00;
 }
+.hide_main{
+  display: none;
+  
+}
 /*--------*/
 @media screen and (min-width: 1275px) {
   .yellow-header{

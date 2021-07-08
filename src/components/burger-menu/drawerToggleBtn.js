@@ -3,24 +3,24 @@ import {Link} from 'react-router-dom';
 
 import './drawerToggleBtn.css';
 
-export default function DrawerToggleBtn(){
+export default function DrawerToggleBtn(props){
     const [toggle, setToggle] = useState(false)
 
     return(
         <div className="toggle-btn">
             <div className="toggle-zone"></div>
-            <button className={`${toggle ? "changed-btn" : " "}`}  onClick={() => setToggle(!toggle)}>
+            <button className={`${props.tog ? "changed-btn" : " "}`}  onClick={() => props.setTog(!props.tog)}>
                 <div className="toggle-btn__line"></div>
                 <div className="toggle-btn__line"></div>
                 <div className="toggle-btn__line"></div>
             </button>
-            <nav className="side-drawer">
+            <nav className="side-drawer" scroll="no">
                 <div className="side-drawer-items">
                     <ul>
              
                         
-                        <li><Link to="/"><a>r e s u m e</a></Link></li>
-                        <li><Link to="/works"><a>w o r k s</a></Link></li>
+                        <li><Link to="/"><a onClick={() => props.setTog(!props.tog)}>r e s u m e</a></Link></li>
+                        <li><Link to="/works"><a onClick={() => props.setTog(!props.tog)}>w o r k s</a></Link></li>
                         {/* <li><Link to="/contact"><a href="/">contact</a></Link></li> */}
                     </ul>
                 </div>
